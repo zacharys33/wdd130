@@ -3,7 +3,7 @@
     max-width: 1600px;
     margin: 0 auto;
   }
-  
+
   nav a {
     text-align: center;
   }
@@ -120,6 +120,10 @@ body {
   .card-img {
     border: 10px solid #d9c2a3;
   }
+
+  .mountains {
+    margin: 150px 0;
+}
   
   footer {
     background-color: #25ced1;
