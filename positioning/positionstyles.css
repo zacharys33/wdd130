@@ -105,36 +105,40 @@
   display:grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 133px 133px 133px;
+  gap: 0;
+  width: 600px;
 }
 .red4 {
-  width: 300px; 
-  height: 399px; 
-  background-color: red; 
-  grid-column: 1;
-} 
+  background-color: red;
+  grid-column: 1 / 2; 
+  grid-row: 1 / 4;  
+  width: 100%;
+  height: 100%;
+}
+
 .green4 {
-  width: 300px; 
-  height: 133px; 
-  background-color: green; 
-  grid-column: 2;
-  grid-row: 1;
-} 
+  background-color: green;
+  grid-column: 2 / 3; 
+  grid-row: 1 / 2;
+  width: 100%;
+  height: 100%;
+}
+
 .yellow4 {
-  width: 300px; 
-  height: 133px; 
-  background-color: gold; 
-  grid-column: 2;
-  grid-row: 2;
-  top: 133px;
-} 
+  background-color: gold;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  width: 100%;
+  height: 100%;
+}
+
 .blue4 {
-  width: 300px; 
-  height: 133px; 
-  background-color: blue; 
-  grid-column: 2;
-  grid-row: 3;
-  top: 266px;
-} 
+  background-color: blue;
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  width: 100%;
+  height: 100%;
+}
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
