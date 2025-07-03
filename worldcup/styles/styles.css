@@ -63,11 +63,7 @@ body {
     background-color: #fca311;
     color: #ffffff;
   }
-  
-  #hero {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-}
+
 
 #hero-box {
     grid-column: 1/4;
