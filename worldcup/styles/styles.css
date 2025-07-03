@@ -42,6 +42,20 @@ body {
     grid-template-columns: 150px auto;
   }
 
+  .main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.main-nav a {
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 30px;
+}
   nav {
     display: flex;
     justify-content: space-around;
