@@ -180,3 +180,16 @@ footer p a:hover {
 footer .social img {
   padding-top: 15px;
 }
+#countdown-bar {
+    width: 100%;
+    background-color: #fca311;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: relative; /* no sticky, no interference */
+    z-index: 1000;
+}
